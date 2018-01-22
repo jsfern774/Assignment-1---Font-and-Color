@@ -1,0 +1,355 @@
+/* Base styles */
+
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1300px;
+}
+
+.box {
+	height: 50px;
+	display: inline-block;
+}
+
+.centeredbuttons {
+	justify-content: center;
+}
+
+/* Sophisticated */
+
+.sophhead {
+    background-color: black;
+    padding: 20px 20px 5px 20px;
+}
+
+.sophbody {
+    background-color: white;
+    padding: 60px 10px;
+}
+
+.sophfoot {
+    background-color: black;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "GreatVibes-Regular";
+    src: url("../fonts/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url("../fonts/Oswald-Regular.ttf");
+}
+
+.sophfontheader {
+    font-family: "GreatVibes-Regular";
+    font-size: 150px;
+    font-weight: bold;
+    color: #7b2828;
+    line-height: 0;
+    letter-spacing: 1px;
+	text-align: center;
+}
+
+.sophfontbody {
+    font-family: "Oswald-Regular";
+    color: #9a8c66;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.sophbutton {
+    color: #7b2828;
+    background-color: black;
+    border: 4px solid black;
+    font-weight: bold;
+    font-family: "GreatVibes-Regular";
+	width: 19%;
+	min-width: 130px;
+    text-align: center;
+    font-size: 29px;
+    border-radius: 2px;
+}
+
+.sophbutton:hover {
+    color: #aa4f4f;
+}
+
+/* Energetic (DONE) */
+
+.enerhead {
+    background-color: #D61B35;
+    padding: 20px 20px 5px 20px;
+}
+
+.enerbody {
+    background-color: #ad172c;
+    padding: 60px 10px;
+}
+
+.enerfoot {
+    background-color: #D61B35;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "SedgwickAveDisplay-Regular";
+    src: url("../fonts/SedgwickAveDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PermanentMarker-Regular";
+    src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+
+.enerfontheader {
+    font-family: "SedgwickAveDisplay-Regular";
+    font-size: 150px;
+    font-weight: bold;
+	text-transform: uppercase;
+    color: #ffcc00;
+    opacity: .9;
+    line-height: 0;
+    letter-spacing: 7px;
+	text-align: center;
+}
+
+.enerfontbody {
+    font-family: "PermanentMarker-Regular";
+    color: #ffcc00;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.enerbutton {
+    color: #ffcc00;
+    background-color: #D61B35;
+    border: 4px solid #D61B35;
+    font-weight: bold;
+    font-family: "SedgwickAveDisplay-Regular";
+	width: 18.7%;
+	min-width: 130px;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 23px;
+    border-radius: 2px;
+    margin-right: 1%;
+	letter-spacing: 4px;
+	cursor: pointer;
+}
+
+.enerbutton:hover {
+    color: #fbe58c;
+}
+
+.enerbutton2:hover {
+    color: #fbe58c;
+}
+
+/* Relaxed (DONE)*/
+
+.relaxhead {
+    background-color: #409794;
+    padding: 20px 20px 5px 20px;
+	border-bottom-color: #7BF0EC;
+	border-bottom-style: dotted;
+}
+
+.relaxbody {
+    background-color: #409794;
+    padding: 60px 10px;
+}
+
+.relaxfoot {
+    background-color: #409794;
+    padding: 30px;
+	border-top-color: #7BF0EC;
+	border-top-style: dotted;
+}
+
+@font-face {
+    font-family: "CabinSketch-Bold";
+    src: url("../fonts/CabinSketch-Bold.ttf");
+}
+
+@font-face {
+    font-family: "LondrinaSketch-Regular";
+    src: url('../fonts/LondrinaSketch-Regular.ttf');
+}
+
+.relaxfontheader {
+    font-family: "CabinSketch-Bold";
+    font-size: 150px;
+    font-weight: bold;
+    color: #b2efed;
+    opacity: .9;
+    line-height: 0;
+    letter-spacing: 1px;
+	text-align: center;
+}
+
+.relaxfontbody {
+    font-family: "LondrinaSketch-Regular";
+    color: #92f0ed;
+    font-size: 30px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.relaxbutton {
+    color: #b2efed;
+    background-color: #409794;
+    border: 4px solid #409794;
+    font-weight: bold;
+    font-family: "CabinSketch-Bold";
+	width: 18.7%;
+	min-width: 130px;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 23px;
+    border-radius: 2px;
+    margin-right: 1%;
+	letter-spacing: 4px;
+	cursor: pointer;
+}
+
+.relaxbutton:hover {
+    color: #ffffff;
+}
+
+/* Corporate (DONE)*/
+
+.corphead {
+    background-color: #afb2ca;
+    padding: 20px;
+}
+
+.corpbody {
+    background-color: whitesmoke;
+    padding: 60px 10px;
+}
+
+.corpfoot {
+    background-color: #afb2ca;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: "Rokkitt-ExtraBold";
+    src: url("../fonts/Rokkitt-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Regular.ttf");
+}
+
+.corpfontheader {
+    font-family: "RubikMono";
+    font-size: 85px;
+    font-weight: bold;
+    color: #040C49;
+    opacity: .9;
+    line-height: 0;
+    letter-spacing: 1px;
+	text-align: center;
+}
+
+.corpfontbody {
+    font-family: "PlayfairDisplay";
+    color: #131A5F;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.corpbutton {
+    color: white;
+    background-color: #040C49;
+    border: 4px solid #040C49;
+    font-family: "Arial";
+	width: 18.7%;
+	min-width: 130px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 2px;
+    padding: 15px 15px;
+    margin-right: 1%;
+	letter-spacing: 4px;
+	cursor: pointer;
+}
+
+.corpbutton:hover {
+    background-color: #081784;
+    border-color: #081784;
+}
+
+/* Fun */
+
+.funhead {
+    background-color: #1B47AB;
+    padding: 20px;
+}
+
+.funbody {
+    background-color: #ffca10;
+    padding: 60px 10px;
+}
+
+.funfoot {
+    background-color: #1B47AB;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: "IndieFlower";
+    src: url("../fonts/IndieFlower.ttf");
+}
+
+@font-face {
+    font-family: "RubikMonoOne-Regular";
+    src: url("../fonts/RubikMonoOne-Regular.ttf");
+}
+
+
+.funfontheader {
+    font-family: "IndieFlower";
+    font-size: 100px;
+    font-weight: bold;
+	text-transform: uppercase;
+    color: #ffd510;
+    line-height: 0;
+    letter-spacing: 1px;
+	text-align: center;
+}
+
+.funfontbody {
+    font-family: "RubikMonoOne-Regular";
+    color: #1B47AB;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+	letter-spacing: 2px;
+}
+
+.funbutton {
+	color: #ffd510;
+    background-color: #1B47AB;
+    border: 4px solid #1B47AB;
+    font-weight: bold;
+    font-family: "IndieFlower";
+    width: 18.7%;
+	min-width: 130px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 2px;
+    margin-right: 1%;
+	cursor: pointer;
+}
+
+.funbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
